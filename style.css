@@ -83,8 +83,8 @@ body {
 }
 
 @media (max-width: 500px) {
-  .slider {
-    margin: auto 0;
+  .buttons button {
+    padding: 5px 7px;
   }
 
   .slide .content {
