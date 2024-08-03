@@ -1,101 +1,36 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Full Screen Slider</title>
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+      integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="slideshow-container">
-      <div class="mySlides fade">
-        <div class="numbertext">1 / 12</div>
-        <img src="assets/img01.jpg" style="width: 100%" />
-        <div class="text">Kairoai Global Private Limited</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">2 / 12</div>
-        <img src="assets/img02.jpg" style="width: 100%" />
-        <div class="text">Table of Contents</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">3 / 12</div>
-        <img src="assets/img03.jpg" style="width: 100%" />
-        <div class="text">Kairoai Labs</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">4 / 12</div>
-        <img src="assets/img04.jpg" style="width: 100%" />
-        <div class="text">Who We Are</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">5 / 12</div>
-        <img src="assets/img05.jpg" style="width: 100%" />
-        <div class="text">About Company</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">6 / 12</div>
-        <img src="assets/img06.jpg" style="width: 100%" />
-        <div class="text">Vision</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">7 / 12</div>
-        <img src="assets/img07.jpg" style="width: 100%" />
-        <div class="text">Mission</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">8 / 12</div>
-        <img src="assets/img08.jpg" style="width: 100%" />
-        <div class="text">Stay Inspired. Never Stop Creating.</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">9 / 12</div>
-        <img src="assets/img09.jpg" style="width: 100%" />
-        <div class="text">Our Services</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">10 / 12</div>
-        <img src="assets/img10.jpg" style="width: 100%" />
-        <div class="text">Our Goals & Technology</div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">11 / 12</div>
-        <img src="assets/img11.jpg" style="width: 100%" />
-        <div class="text"></div>
-      </div>
-
-      <div class="mySlides fade">
-        <div class="numbertext">12 / 12</div>
-        <img src="assets/img12.jpg" style="width: 100%" />
-        <div class="text">Let's Connect With Us</div>
-      </div>
-
-      <a class="prev" onclick="plusSlides(-1)">❮</a>
-      <a class="next" onclick="plusSlides(1)">❯</a>
+    <div class="slider">
+      <div class="slide current"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
+      <div class="slide"></div>
     </div>
-    <br />
-
-    <div style="text-align: center">
-      <span class="dot" onclick="currentSlide(1)"></span>
-      <span class="dot" onclick="currentSlide(2)"></span>
-      <span class="dot" onclick="currentSlide(3)"></span>
-      <span class="dot" onclick="currentSlide(4)"></span>
-      <span class="dot" onclick="currentSlide(5)"></span>
-      <span class="dot" onclick="currentSlide(6)"></span>
-      <span class="dot" onclick="currentSlide(7)"></span>
-      <span class="dot" onclick="currentSlide(8)"></span>
-      <span class="dot" onclick="currentSlide(9)"></span>
-      <span class="dot" onclick="currentSlide(10)"></span>
-      <span class="dot" onclick="currentSlide(11)"></span>
-      <span class="dot" onclick="currentSlide(12)"></span>
+    <div class="buttons">
+      <button id="prev"><i class="fas fa-arrow-left"></i></button>
+      <button id="next"><i class="fas fa-arrow-right"></i></button>
     </div>
 
     <script src="script.js"></script>
