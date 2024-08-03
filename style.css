@@ -58,20 +58,20 @@ body {
 
 .buttons button#next {
   position: absolute;
-  top: 40%;
+  top: 50%;
   right: 15px;
 }
 
 .buttons button#prev {
   position: absolute;
-  top: 40%;
+  top: 50%;
   left: 15px;
 }
 
 .buttons button {
-  border: 2px solid #000;
+  border: 2px solid #777;
   background-color: transparent;
-  color: #000;
+  color: #777;
   cursor: pointer;
   padding: 13px 15px;
   border-radius: 50%;
@@ -79,11 +79,14 @@ body {
 }
 
 .buttons button:hover {
-  background-color: #fff;
-  color: #333;
+  color: #777;
 }
 
 @media (max-width: 500px) {
+  .slider {
+    margin: auto 0;
+  }
+
   .slide .content {
     bottom: -300px;
     left: 0;
